@@ -1,22 +1,12 @@
 import { defineStore } from 'pinia'
 import VueSelect from '@/components/WebLink.vue'
 import $ from 'jquery'
-$(window).on('load', function loooad() {
-  $(window).scrollTop(0)
-  productStore.fetchPro
-  $('.loading-page .name').fadeOut(1000, function () {
-    $(window).scrollTop(0)
 
-    $(this)
-      .parent()
-      .fadeOut(1000, () => {
-        $(this).remove()
-        $('body').css('overflow', 'auto')
-        $(window).scrollTop(0)
-        $('.base').load('../templates/index.html')
-      })
-  })
-})
+
+
+
+
+
 export const productStore = defineStore('product', {
   state: () => ({
     products: localStorage.products != null ? JSON.parse(localStorage.products) : [],
@@ -111,6 +101,22 @@ export const productStore = defineStore('product', {
     showCartLength: showcartNum,
     showalert: showalert2
   }
+})
+$(window).on('load', function loooad() {
+  $(window).scrollTop(0)
+  productStore.fetchPro
+  $('.loading-page .name').fadeOut(1000, function () {
+    $(window).scrollTop(0)
+
+    $(this)
+      .parent()
+      .fadeOut(1000, () => {
+        $(this).remove()
+        $('body').css('overflow', 'auto')
+        $(window).scrollTop(0)
+        $('.base').load('../templates/index.html')
+      })
+  })
 })
 function showcartNum() {
   if (this.cart.length > 0) {

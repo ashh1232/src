@@ -77,13 +77,14 @@ export default defineComponent({
 import { computed } from 'vue'
 import { productStore } from '@/stores/product.js'
 import { useRoute } from 'vue-router'
+
 const store = productStore()
 const route = useRoute()
 // const router = useRouter()
 const selectedProduct = computed(() => {
-  return store.products.find((item) => item.product_id === route.params.id)
+  return store.products.find((item) => item.product_id == route.params.id)
 })
-
+console.log(selectedProduct)
 const addTocard = () => {
   store.addtocart(selectedProduct.value)
   store.showalert('تم اضافه المنتج الى سلتك', 'dark')
