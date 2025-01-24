@@ -111,7 +111,7 @@ onMounted(() => {
   z-index: 2;
 }
 .gallery-item-2 {
-  right: -30%;
+  // right: -30%;
   transform: translateX(-50%);
 }
 </style>

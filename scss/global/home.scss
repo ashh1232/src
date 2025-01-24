@@ -159,13 +159,35 @@ body{
     margin: 0 auto;
   }
 }
-.cat-home ul li{
-  width: 100px;
+.cat-home ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
+.cat-home ul li{
+  width: 100%;
+
+  background-color: rgba(167, 167, 167, 0.199);
+  
+
+  box-shadow:  0.3px 1px 5px 0.1px #68686846;
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  border-radius: 15%;
+}
 .cat-home ul li:hover{
-  background-color: #333;
-  color: #fefefe;
+width: 100%;
+  background-color: rgb(255, 255, 255);
+
+  box-shadow:  3px 3px 5px 1px #68686846;
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  border-radius: 15%;
 
 }
 .new-game{

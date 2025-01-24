@@ -51,7 +51,7 @@
             <router-link to="/salon" class="nav-link active">الصالون</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/neon" class="nav-link active">نيون</router-link>
+            <router-link to="/shada" class="nav-link active">نيون</router-link>
           </li>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <li class="nav-item dropdown mx-5">

@@ -362,8 +362,10 @@ const x = function () {
   display: none;
 }
 .check-container {
+  padding: 0 12px;
   padding-top: 15px;
   padding-bottom: 15px;
+
   display: none;
   flex-direction: column;
   position: sticky;
@@ -382,6 +384,10 @@ const x = function () {
 }
 .immmmg {
   height: 100%;
+  width: 70px;
+  border-radius: 30%;
+  box-shadow: 4px 5px 20px 0px rgb(0 0 255 / 21%) !important
+  ;
 }
 
 .order-box #title {
