@@ -382,6 +382,9 @@ const x = function () {
 }
 .immmmg {
   height: 100%;
+  width: 70px;
+  border-radius: 10%;
+  box-shadow: 7px 8px 15px 1px #6d6a6a66 !important;
 }
 
 .order-box #title {
