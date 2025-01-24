@@ -60,7 +60,7 @@ const hasError = ref(false)
 const store = productStore()
 const router = useRouter()
 
-
+console.log(store)
 const goToproductDetail = (id) => {
   scroll(0, 0)
 

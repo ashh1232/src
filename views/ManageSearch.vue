@@ -88,11 +88,12 @@ const isActivee = function (event, theClass, list, id) {
 }
 .active {
   padding: 10px;
-  background-color: #555;
+  background-color: #55555550;
   border-radius: 3px;
-  color: #fff;
+  color: #333;
   font-weight: bold;
   text-align: center;
+
 }
 li {
   cursor: pointer;
@@ -108,11 +109,11 @@ li {
   padding: 10px 0;
 }
 li:hover {
-  background: #555;
+  background: #777;
   color: #fff;
 }
 ul {
-  background: #fff;
+  background: #f6f6f6;
 
   padding: 10px;
 }
