@@ -385,14 +385,9 @@ const x = function () {
 .immmmg {
   height: 100%;
   width: 70px;
-
-  border-radius: 10%;
-  box-shadow: 7px 8px 15px 1px #6d6a6a66 !important;
-
   border-radius: 30%;
   box-shadow: 4px 5px 20px 0px rgb(0 0 255 / 21%) !important
   ;
-
 }
 
 .order-box #title {
@@ -433,4 +428,3 @@ const x = function () {
   font-size: 60px;
 }
 </style>
-
