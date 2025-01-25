@@ -73,10 +73,10 @@ onMounted(() => {
 <style lang="scss" scoped>
 .gallery {
   margin: 0 auto;
-  width: 90%;
+  // width: 90%;
 }
 .gallery-container {
-  align-items: center;
+  // align-items: center;
   display: flex;
   margin: 0 auto;
   min-width: 80%;
@@ -88,7 +88,7 @@ onMounted(() => {
   transition: all 0.3s ease-in-out;
   width: 330px;
   z-index: 0;
-  border-radius: 15px;
+  // border-radius: 15px;
   background-size: contain;
 }
 .gallery-item-0,
@@ -103,7 +103,7 @@ onMounted(() => {
   transform: translateX(-50%);
 }
 .gallery-item-1 {
-  box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+  // box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
   opacity: 1;
   left: 50%;
   transform: translateX(-50%);
@@ -111,7 +111,7 @@ onMounted(() => {
   z-index: 2;
 }
 .gallery-item-2 {
-  right: -30%;
+  // right: -30%;
   transform: translateX(-50%);
 }
 </style>

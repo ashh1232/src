@@ -31,7 +31,7 @@
           v-for="proo in prds"
           :key="proo.product_id"
           @click="goToproductDetail(proo.product_id)"
-          class="bg-white p-2"
+          class="bg-white p-2 m-1 shadow rounded card text-center w-100 h-100 d-flex justify-content-center align-items-center flex-column "  
         >
           <img class="card-img" :src="proo.product_image" alt="" />
           <div class="card-body text-center">{{ proo.product_name }}</div>
@@ -88,11 +88,12 @@ const isActivee = function (event, theClass, list, id) {
 }
 .active {
   padding: 10px;
-  background-color: #555;
+  background-color: #55555550;
   border-radius: 3px;
-  color: #fff;
+  color: #333;
   font-weight: bold;
   text-align: center;
+
 }
 li {
   cursor: pointer;
@@ -108,11 +109,11 @@ li {
   padding: 10px 0;
 }
 li:hover {
-  background: #555;
+  background: #777;
   color: #fff;
 }
 ul {
-  background: #fff;
+  background: #f6f6f6;
 
   padding: 10px;
 }
@@ -123,8 +124,12 @@ ul {
 }
 .ul-list {
   background: #f6f6f6;
-  width: 29%;
+  /* width: 29%; 
+  
+  |*/
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 </style>
