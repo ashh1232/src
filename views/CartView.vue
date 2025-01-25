@@ -386,7 +386,7 @@ const x = function () {
   height: 100%;
   width: 70px;
   border-radius: 30%;
-  box-shadow: 4px 5px 20px 0px rgb(0 0 255 / 21%) !important
+  box-shadow: 4px 5px 20px 0px rgba(97, 97, 97, 0.293) !important
   ;
 }
 
@@ -426,5 +426,6 @@ const x = function () {
   height: 70vh;
   font-family: 'Noto Nastaliq Urdu', serif;
   font-size: 60px;
+  
 }
 </style>
