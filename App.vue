@@ -7,7 +7,7 @@
     </div>
     <nav-bar />
     <div class="loading-page">
-      <p class="name">دكانvbnه</p>
+      <p class="name">دكانvbjnه</p>
       <p class="loa">-</p>
     </div>
   </div>
